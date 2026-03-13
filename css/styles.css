@@ -245,7 +245,7 @@ ul {
 /* FIX 1: Side-by-side layout on tablet and up */
 @media (min-width: 768px) {
     .about__content {
-        grid-template-columns: 500px 1fr;
+        grid-template-columns: 300px 1fr;
         align-items: start;
     }
 
@@ -256,7 +256,7 @@ ul {
 
 .about__image img {
     border-radius: 70%;
-    max-width: 450px;
+    max-width: 350px;
     margin: auto;
 }
 
@@ -378,10 +378,14 @@ ul {
     margin-bottom: var(--spacing-lg);
 }
 
-.contact-form {
-    display: flex;
-    flex-direction: column;
+.contact-form,
+.contact__form {
+    display: grid;
+    grid-template-columns: 1fr;
     gap: var(--spacing-md);
+    background-color: var(--color-background);
+    padding: var(--spacing-md);
+    border-radius: var(--border-radius);
 }
 
 .form-group {
