@@ -127,24 +127,33 @@ Before submitting, verify:
 
 ## Your Information
 
-**Name:** [Your Name]
-**Student ID:** [Your Student ID]
-**Design Theme:** [Describe your portfolio theme/style]
+**Name:** BAUTIS CHILESHE
+**Student ID:** 2022036565
+**Design Theme:** 
+The portfolio follows a clean and modern developer theme focused on simplicity and readability.  
+The layout uses a minimal color palette with clear typography and responsive design principles.  
+Flexbox and CSS Grid are used to create structured layouts, while subtle hover effects and animations improve the user experience.  
+The goal of the design is to present projects and skills in a professional way that is easy to navigate across desktop, tablet, and mobile devices.
 
 ### CSS Techniques Used
-- [ ] CSS Custom Properties
-- [ ] Flexbox
-- [ ] CSS Grid
-- [ ] Media Queries
-- [ ] Other: _______________
+- [x] CSS Custom Properties
+- [x] Flexbox
+- [x] CSS Grid
+- [x] Media Queries
+- [x] Other: CSS Animations and Hover Effects
 
 ### Challenges & Solutions
-[Describe any challenges you faced and how you solved them]
+One challenge was implementing responsive layouts that adapt smoothly between mobile, tablet, and desktop screen sizes. This was solved by using a mobile-first approach and applying media queries at key breakpoints (768px and 1024px).
+
+Another challenge was organizing project cards so they aligned properly across different screen sizes. CSS Grid was used to create a flexible grid layout that automatically adjusts the number of columns based on available screen space.
+
+Finally, ensuring consistent spacing and colors across the website was addressed by using CSS custom properties (variables). This made it easier to maintain a design and update styles efficiently.
 
 ### Credits
-[List any images, fonts, or resources used with attribution]
-
----
+Images: Placeholder images used for demonstration purposes.  
+Fonts: Google Fonts (Poppins).  
+Icons: Emoji icons used for simple UI elements.  
+Development Tools: Visual Studio Code and Google Chrome Developer Tools.
 
 ## Academic Integrity
 
