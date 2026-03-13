@@ -245,7 +245,7 @@ ul {
 /* FIX 1: Side-by-side layout on tablet and up */
 @media (min-width: 768px) {
     .about__content {
-        grid-template-columns: 300px 1fr;
+        grid-template-columns: 450px 1fr;
         align-items: start;
     }
 
@@ -256,7 +256,7 @@ ul {
 
 .about__image img {
     border-radius: 70%;
-    max-width: 350px;
+    max-width: 450px;
     margin: auto;
 }
 
